@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<!--    textview untuk menampilkan data atribut character, anime, english,
+indo dari setiap objek Quote-->
+<!--    digunakan dalam QuoteAdapter.kt untuk menampilkan setiap quote
+di dalam daftar RecyclerView-->
+
+    <TextView
+        android:id="@+id/tv_character"
+        android:text="Character"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_anime"
+        android:text="Anime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_english"
+        android:text="English"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_indo"
+        android:text="Indo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
+
